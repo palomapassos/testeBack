@@ -5,7 +5,7 @@ const Cors = require('@koa/cors');
 
 require('dotenv').config();
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT;
 
 const server = new Koa();
 

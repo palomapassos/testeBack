@@ -13,6 +13,4 @@ server.use(Cors());
 server.use(bodyparser());
 server.use(router.routes());
 
-console.log(PORT);
-
 server.listen(PORT, `0.0.0.0`, null, () => console.log('Servidor rodando!'));
